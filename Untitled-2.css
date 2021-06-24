@@ -1,0 +1,117 @@
+body{
+
+
+  margin: 0;
+  padding: 0;
+ color: white;
+ background-color: rgb(211, 202, 202);
+}
+
+
+/* .grid > div {
+
+ 
+   border: solid 1px red ;
+} */
+
+
+.grid{
+
+
+  display: grid;
+  grid-template-columns: 100% ;
+  grid-template-rows: 300px  ;
+  grid-template-areas:    "case1 "
+                          "case2"
+                          "case3"
+                          "case4" ;
+}
+
+
+
+
+
+.case1{
+
+ 
+  background-image: url("https://i.imgur.com/HC42paw.jpg");
+  background-size: 300px 100px;
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  text-align: center;
+  font-size: 40px;
+  grid-area: case1;
+ 
+}
+
+.case2{
+
+ 
+  grid-area: case2;
+}
+
+.case3{
+
+  background-color: rgb(150, 145, 121);
+  grid-area: case3;
+}
+
+.case4{
+
+    background-color: rgb(150, 145, 121);
+  grid-area: case4;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+  }
+
+
+  .block{
+
+    float: left;
+    width: 33.3% 33.3% 33.3%;
+    border: 1px solid;
+    padding: 10px;
+
+  }
+
+
+
+
+
+
